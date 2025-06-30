@@ -4,7 +4,7 @@
   "locale": "en-US",
   "uuid": "",
   "parent_uuid": "5976f30a-f71c-4f2c-a023-1b8a6cfe85c2",
-  "date": 1751315918,
+  "date": 1751320873,
   "creator": "natsedt",
   "title": "Glorious Engrammer v42-rc3 (preview)",
   "notes": "Sunaku's Keymap v42-rc3 for the \"Glorious Engrammer\" 🧑‍🚀🚀✨\n- Intro & setup: https://github.com/sunaku/glove80-keymaps/tree/v42-rc3/#readme\n- Release notes: https://github.com/sunaku/glove80-keymaps/releases/tag/v42-rc3\n- Printable map: https://github.com/sunaku/glove80-keymaps/raw/v42-rc3/README/all-layer-diagrams.pdf\n- Documentation: https://sunaku.github.io/moergo-glove80-keyboard.html#layers\n- Discord forum: **#glorious-engrammer** channel in https://www.moergo.com/discord",
@@ -649,7 +649,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&thumb LAYER_Function ESC",
+            "value": "&thumb LAYER_Number ESC",
             "params": []
           }
         ]
@@ -658,16 +658,16 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&thumb LAYER_Number DELETE",
+            "value": "&thumb LAYER_Function DELETE",
             "params": []
           }
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&thumb LAYER_Mouse TAB",
+            "value": "LGUI",
             "params": []
           }
         ]
@@ -13740,19 +13740,19 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&tog LAYER_System",
+            "value": "PSCRN",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "PSCRN",
+            "value": "&tog LAYER_System",
             "params": []
           }
         ]
@@ -17179,7 +17179,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&tog LAYER_Function",
+            "value": "&tog LAYER_Number",
             "params": []
           }
         ]
@@ -17188,7 +17188,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&tog LAYER_Number",
+            "value": "&tog LAYER_Function",
             "params": []
           }
         ]
