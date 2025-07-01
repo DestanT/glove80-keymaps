@@ -4527,10 +4527,10 @@ macros {
   //
   // Hyper+up - maximise window
   //
-  ZMK_MACRO(hyper_up,
+  ZMK_MACRO(shift_hyper_up,
     wait-ms = <0>;
     tap-ms = <0>;
-    bindings = <&macro_press &kp LCTRL &kp LALT &kp LCMD>, <&macro_tap &kp UP>, <&macro_release &kp LCTRL &kp LALT &kp LCMD>;
+    bindings = <&macro_press &kp LCTRL &kp LALT &kp LCMD &kp LSHFT>, <&macro_tap &kp UP>, <&macro_release &kp LCTRL &kp LALT &kp LCMD &kp LSHFT>;
   )
 
   //////////////////////////////////////////////////////////////////////////
@@ -11591,7 +11591,7 @@ UNICODE_MORPH_MODS
   &none      &cmd_quit  &cmd_w_close                &none          &cmd_r  &cmd_shift_5                                                                               &cmd_shift_5         &kp F7        &kp F8        &kp F9        &kp F10         &kp F13
   &none          &none     &cmd_save               &cmd_d    &cmd_shift_f  &cmd_shift_4                                                                               &cmd_shift_4         &kp F4        &kp F5        &kp F6        &kp F11         &kp F14
   &none          &none         &none  &cmd_c_close_server           &none  &cmd_shift_v   &none   &none                &none    &kp C_PP    &kp C_PREV    &kp C_NEXT  &cmd_shift_v         &kp F1        &kp F2        &kp F3        &kp F12         &kp F15
-  &none          &none   &hyper_left            &hyper_up    &hyper_right                 &none   &none  &tog LAYER_Function  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP                &kp C_BRI_MAX  &kp C_BRI_UP  &kp C_BRI_DN  &kp C_BRI_MIN  &kp C_BRI_AUTO
+  &none          &none   &hyper_left      &shift_hyper_up    &hyper_right                 &none   &none  &tog LAYER_Function  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP                &kp C_BRI_MAX  &kp C_BRI_UP  &kp C_BRI_DN  &kp C_BRI_MIN  &kp C_BRI_AUTO
             >;
         };
 
